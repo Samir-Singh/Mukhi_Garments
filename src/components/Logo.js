@@ -95,7 +95,7 @@ const Logo = () => {
           </g>
         </svg>
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Mukhi Garment
+          Mukhi Garments
         </Text>
       </Link>
     </Container>
