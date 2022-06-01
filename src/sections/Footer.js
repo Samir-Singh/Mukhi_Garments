@@ -4,9 +4,9 @@ import styled from "styled-components";
 import Logo from "../assets/Svgs/star_white_48dp.svg";
 import { motion } from "framer-motion";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -87,7 +87,7 @@ const FooterComponent = styled(motion.footer)`
 `;
 
 const Bottom = styled.div`
-  ${'' /* border:1px solid red; */}
+  ${"" /* border:1px solid red; */}
   padding: 0.5rem 0;
   margin: 0 10rem;
   font-size: ${(props) => props.theme.fontlg};
@@ -148,16 +148,6 @@ const Footer = () => {
           <li onClick={() => handleScroll(".about")}>about</li>
           <li onClick={() => handleScroll("#shop")}>shop</li>
           <li onClick={() => handleScroll("#new-arrival")}>new arrival</li>
-          <li>
-            <a href="https://google.com" target="_blank" rel="noreferrer">
-              look book
-            </a>
-          </li>
-          <li>
-            <a href="https://google.com" target="_blank" rel="noreferrer">
-              reviews
-            </a>
-          </li>
         </ul>
         <Bottom>
           <span
@@ -172,16 +162,15 @@ const Footer = () => {
             data-scroll-speed="-2"
             data-scroll-direction="horizontal"
           >
-            Connect With Us : 
-            
-            <span style={{marginLeft:"10px", marginBottom:"-10px"}}>
-            <InstagramIcon/>
+            Connect With Us :
+            <span style={{ marginLeft: "10px", marginBottom: "-10px" }}>
+              <InstagramIcon />
             </span>
-            <span style={{marginLeft:"10px"}}>
-            <FacebookIcon/>
+            <span style={{ marginLeft: "10px" }}>
+              <FacebookIcon />
             </span>
-            <span style={{marginLeft:"10px"}}>
-            <WhatsAppIcon/>
+            <span style={{ marginLeft: "10px" }}>
+              <WhatsAppIcon />
             </span>
           </span>
         </Bottom>
