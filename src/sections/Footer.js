@@ -154,6 +154,9 @@ const Footer = () => {
             data-scroll
             data-scroll-speed="2"
             data-scroll-direction="horizontal"
+            style={{
+              marginTop: "45px",
+            }}
           >
             &copy; {new Date().getFullYear()}. All Rights Reserved.
           </span>
@@ -163,7 +166,13 @@ const Footer = () => {
             data-scroll-direction="horizontal"
           >
             Connect With Us :
-            <span style={{ marginLeft: "10px", marginBottom: "-10px" }}>
+            <span
+              style={{
+                marginLeft: "10px",
+                // marginBottom: "-10px",
+                fontSize: "50px",
+              }}
+            >
               <InstagramIcon />
             </span>
             <span style={{ marginLeft: "10px" }}>
