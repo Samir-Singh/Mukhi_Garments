@@ -130,7 +130,12 @@ const Footer = () => {
   return (
     <Section>
       <LogoContainer>
-        <img data-scroll data-scroll-speed="2" src={Logo} alt="Wibe Studio" />
+        <img
+          data-scroll
+          data-scroll-speed="2"
+          src={Logo}
+          alt="Mukhi Garments"
+        />
         <h3 data-scroll data-scroll-speed="-1">
           Mukhi Garments
         </h3>
