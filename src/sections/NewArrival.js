@@ -118,7 +118,7 @@ const Item = styled.div`
   img {
     width: 100%;
     height: auto;
-    z-index: 5;
+    z-index: 0;
   }
 `;
 
@@ -205,6 +205,7 @@ const NewArrival = () => {
         <Product img={img2} title="Cool Dresses" />
         <Product img={img3} title="Jackets" />
         <Product img={img4} title="T-shirts" />
+        <Product img={img1} title="Denim" />
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
