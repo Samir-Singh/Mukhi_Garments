@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import logo from "../assets/Images/Logo2.png";
 
 const Container = styled.div`
@@ -33,51 +33,51 @@ const Container = styled.div`
   }
 `;
 
-const Text = styled(motion.span)`
-  font-size: ${(props) => props.theme.fontlg};
-  color: ${(props) => props.theme.text};
-  padding-bottom: 0.5rem;
-`;
+// const Text = styled(motion.span)`
+//   font-size: ${(props) => props.theme.fontlg};
+//   color: ${(props) => props.theme.text};
+//   padding-bottom: 0.5rem;
+// `;
 
-const Text2 = styled(motion.span)`
-  font-size: ${(props) => props.theme.fontsm};
-  color: ${(props) => props.theme.text};
-  padding-bottom: 0.5rem;
-`;
+// const Text2 = styled(motion.span)`
+//   font-size: ${(props) => props.theme.fontsm};
+//   color: ${(props) => props.theme.text};
+//   padding-bottom: 0.5rem;
+// `;
 
-const textVariants = {
-  hidden: {
-    opacity: 0,
-    x: -50,
-  },
-  visible: {
-    opacity: 1,
-    x: -5,
+// const textVariants = {
+//   hidden: {
+//     opacity: 0,
+//     x: -50,
+//   },
+//   visible: {
+//     opacity: 1,
+//     x: -5,
 
-    transition: {
-      duration: 2, // 2
-      delay: 5,
-      ease: "easeInOut",
-    },
-  },
-};
+//     transition: {
+//       duration: 2, // 2
+//       delay: 5,
+//       ease: "easeInOut",
+//     },
+//   },
+// };
 
-const pathVariants = {
-  hidden: {
-    opacity: 0,
-    pathLength: 0,
-  },
-  visible: {
-    opacity: 1,
-    pathLength: 1,
+// const pathVariants = {
+//   hidden: {
+//     opacity: 0,
+//     pathLength: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     pathLength: 1,
 
-    transition: {
-      duration: 2,
-      delay: 3,
-      ease: "easeInOut",
-    },
-  },
-};
+//     transition: {
+//       duration: 2,
+//       delay: 3,
+//       ease: "easeInOut",
+//     },
+//   },
+// };
 
 const Logo = () => {
   return (
@@ -109,6 +109,7 @@ const Logo = () => {
 
         <img
           src={logo}
+          alt="logo"
           style={{
             height: "250px",
             width: "250px",

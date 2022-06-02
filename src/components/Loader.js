@@ -47,56 +47,56 @@ const Container = styled(motion.div)`
   }
 `;
 
-const Text = styled(motion.span)`
-  font-size: ${(props) => props.theme.fontxl};
-  color: ${(props) => props.theme.text};
-  padding-top: 0.5rem;
+// const Text = styled(motion.span)`
+//   font-size: ${(props) => props.theme.fontxl};
+//   color: ${(props) => props.theme.text};
+//   padding-top: 0.5rem;
 
-  @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontlg};
-  }
-`;
+//   @media (max-width: 48em) {
+//     font-size: ${(props) => props.theme.fontlg};
+//   }
+// `;
 
-const Text2 = styled(motion.span)`
-  font-size: ${(props) => props.theme.fontsm};
-  color: ${(props) => props.theme.text};
-  padding-top: 0.5rem;
+// const Text2 = styled(motion.span)`
+//   font-size: ${(props) => props.theme.fontsm};
+//   color: ${(props) => props.theme.text};
+//   padding-top: 0.5rem;
 
-  @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontsm};
-  }
-`;
+//   @media (max-width: 48em) {
+//     font-size: ${(props) => props.theme.fontsm};
+//   }
+// `;
 
-const textVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
+// const textVariants = {
+//   hidden: {
+//     opacity: 0,
+//   },
+//   visible: {
+//     opacity: 1,
 
-    transition: {
-      duration: 1,
-      yoyo: Infinity, // repeats infinite times
-      ease: "easeInOut",
-    },
-  },
-};
+//     transition: {
+//       duration: 1,
+//       yoyo: Infinity, // repeats infinite times
+//       ease: "easeInOut",
+//     },
+//   },
+// };
 
-const pathVariants = {
-  hidden: {
-    opacity: 0,
-    pathLength: 0,
-  },
-  visible: {
-    opacity: 1,
-    pathLength: 1,
+// const pathVariants = {
+//   hidden: {
+//     opacity: 0,
+//     pathLength: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     pathLength: 1,
 
-    transition: {
-      duration: 2,
-      ease: "easeInOut",
-    },
-  },
-};
+//     transition: {
+//       duration: 2,
+//       ease: "easeInOut",
+//     },
+//   },
+// };
 
 const Loader = () => {
   return (
