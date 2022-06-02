@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import logo from "../assets/Images/Logo.jpg";
+import logo from "../assets/Images/Logo2.png";
 
 const Container = styled.div`
   position: absolute;
@@ -35,6 +35,12 @@ const Container = styled.div`
 
 const Text = styled(motion.span)`
   font-size: ${(props) => props.theme.fontlg};
+  color: ${(props) => props.theme.text};
+  padding-bottom: 0.5rem;
+`;
+
+const Text2 = styled(motion.span)`
+  font-size: ${(props) => props.theme.fontsm};
   color: ${(props) => props.theme.text};
   padding-bottom: 0.5rem;
 `;
@@ -95,19 +101,28 @@ const Logo = () => {
             />
           </g>
         </svg> */}
+        {/* <Text>MG</Text> */}
         {/* <Text variants={textVariants} initial="hidden" animate="visible">
           Mukhi Garments
         </Text> */}
+        {/* <br /> */}
 
         <img
           src={logo}
           style={{
-            height: "100px",
-            width: "150px",
-            backgroundColor: "red",
+            height: "250px",
+            width: "250px",
+            marginTop: "-90px",
+            marginLeft: "-40px",
+            // position: "absolute",
+            // top: "0",
+            // left: "0",
           }}
         ></img>
       </Link>
+      {/* <Text2 variants={textVariants} initial="hidden" animate="visible">
+        All Types of Ladies Garments
+      </Text2> */}
     </Container>
   );
 };
