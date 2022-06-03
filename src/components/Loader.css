@@ -12,7 +12,8 @@ and (orientation: portrait) {
 }
 
 .container{
-    background:radial-gradient(ellipse at bottom, #0D1E31, #111);
+    /* background:radial-gradient(ellipse at bottom, #0D1E31, #111); */
+    background-color: black;
     transform: rotateZ(40deg);
 }
 

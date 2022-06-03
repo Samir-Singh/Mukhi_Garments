@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import logo from "../assets/Images/Logo Mg 2.png";
+import logo from "../assets/Images/Logo Mg.jpg";
 import "./Loader.css";
 
 const Container = styled(motion.div)`
