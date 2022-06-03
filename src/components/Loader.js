@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import logo from "../assets/Images/Logo.jpg";
+import logo from "../assets/Images/Logo Mg.jpg";
 
 const Container = styled(motion.div)`
   position: absolute;

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 // import { motion } from "framer-motion";
-import logo from "../assets/Images/Logo2.png";
+import logo from "../assets/Images/Logo Mg 2.png";
 
 const Container = styled.div`
   position: absolute;
@@ -111,10 +111,10 @@ const Logo = () => {
           src={logo}
           alt="logo"
           style={{
-            height: "250px",
-            width: "250px",
-            marginTop: "-90px",
-            marginLeft: "-40px",
+            height: "120px",
+            width: "120px",
+            marginTop: "-10px",
+            // marginLeft: "-40px",
             // position: "absolute",
             // top: "0",
             // left: "0",
