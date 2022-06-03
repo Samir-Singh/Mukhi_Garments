@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import logo from "../assets/Images/Logo Mg.jpg";
+import logo from "../assets/Images/Logo Mg 2.png";
+import "./Loader.css";
 
 const Container = styled(motion.div)`
   position: absolute;
@@ -23,7 +24,7 @@ const Container = styled(motion.div)`
   justify-content: center;
   align-items: center;
 
-  background-color: ${(props) => props.theme.body};
+  ${"" /* background-color: ${(props) => props.theme.body}; */}
   color: ${(props) => props.theme.text};
 
   svg {
@@ -82,6 +83,11 @@ const Container = styled(motion.div)`
 //   },
 // };
 
+// const imgVariants = {
+//   width: "100%",
+//   height: "100%",
+// };
+
 // const pathVariants = {
 //   hidden: {
 //     opacity: 0,
@@ -101,6 +107,7 @@ const Container = styled(motion.div)`
 const Loader = () => {
   return (
     <Container
+      className="container"
       initial={{
         y: 0,
         opacity: 1,
@@ -123,11 +130,17 @@ const Loader = () => {
       > */}
       {/* <g></g> */}
       {/* <g> */}
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
       <img
-        style={{
-          width: "100%",
-          height: "100%",
-        }}
+        // style={{
+        //   width: "100%",
+        //   height: "50%",
+        //   objectFit: "contain",
+        // }}
         src={logo}
         alt="logo"
       ></img>
