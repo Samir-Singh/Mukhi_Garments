@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import MainVideo from "../assets/Walking Girl.mp4";
 import { motion } from "framer-motion";
+import logo from "../assets/Images/Mukhi Logo.png";
 
 const VideoContainer = styled.section`
   width: 100%;
@@ -86,14 +87,14 @@ const container = {
     },
   },
 };
-const item = {
-  hidden: {
-    opacity: 0,
-  },
-  show: {
-    opacity: 1,
-  },
-};
+// const item = {
+//   hidden: {
+//     opacity: 0,
+//   },
+//   show: {
+//     opacity: 1,
+//   },
+// };
 
 const CoverVideo = () => {
   return (
@@ -101,7 +102,16 @@ const CoverVideo = () => {
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
         <div>
-          <motion.h1
+          <img
+            style={{
+              width: "150%",
+              height: "150%",
+              // marginBottom: "100px",
+            }}
+            src={logo}
+            alt="mukhi logo"
+          />
+          {/* <motion.h1
             variants={item}
             data-scroll
             data-scroll-delay="0.13"
@@ -140,16 +150,27 @@ const CoverVideo = () => {
             data-scroll-speed="4"
           >
             i
-          </motion.h1>
+          </motion.h1> */}
         </div>
-        <motion.h2
+        {/* <motion.h2
           variants={item}
           data-scroll
           data-scroll-delay="0.04"
           data-scroll-speed="2"
+        > */}
+        <div
+          style={{
+            marginTop: "45px",
+            fontSize: "20px",
+            // fontFamily: "'Baloo 2', cursive",
+            fontFamily: "'Courgette', cursive",
+            // fontFamily: "'Josefin Sans', sans-serif",
+            // fontFamily: "'Jost', sans-serif",
+          }}
         >
           All types of Ladies Garments & Silk
-        </motion.h2>
+        </div>
+        {/* </motion.h2> */}
       </Title>
       <video src={MainVideo} type="video/mp4" autoPlay muted loop />
     </VideoContainer>

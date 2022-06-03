@@ -1,6 +1,14 @@
 img{
-    width:50%;
-    height:35%;
+    width:10%;
+    height:25%;
+}
+
+@media screen and (min-device-width:320px) and (max-device-width: 480px)
+and (orientation: portrait) {
+  img{
+    width: 50%;
+    height: 25%;
+  }
 }
 
 .container{
