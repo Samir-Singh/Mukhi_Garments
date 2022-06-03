@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import MainVideo from "../assets/Walking Girl.mp4";
 import { motion } from "framer-motion";
-import logo from "../assets/Images/Mukhi Logo.png";
+import logo from "../assets/Images/Logo.png";
 
 const VideoContainer = styled.section`
   width: 100%;
@@ -101,16 +101,26 @@ const CoverVideo = () => {
     <VideoContainer>
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
-        <div>
+        <div style={{ display: "flex", flexDirection: "column" }}>
           <img
             style={{
-              width: "150%",
-              height: "150%",
-              // marginBottom: "100px",
+              width: "85%",
+              height: "85%",
             }}
             src={logo}
             alt="mukhi logo"
           />
+          <span
+            style={{
+              display: "flex",
+              alignItem: "center",
+              justifyContent: "center",
+              fontSize: "20px",
+              fontFamily: "'Courgette', cursive",
+            }}
+          >
+            All types of Ladies Garments & Silk
+          </span>
           {/* <motion.h1
             variants={item}
             data-scroll
@@ -160,7 +170,7 @@ const CoverVideo = () => {
         > */}
         <div
           style={{
-            marginTop: "45px",
+            // marginTop: "0px",
             fontSize: "20px",
             // fontFamily: "'Baloo 2', cursive",
             fontFamily: "'Courgette', cursive",
@@ -168,7 +178,7 @@ const CoverVideo = () => {
             // fontFamily: "'Jost', sans-serif",
           }}
         >
-          All types of Ladies Garments & Silk
+          {/* All types of Ladies Garments & Silk */}
         </div>
         {/* </motion.h2> */}
       </Title>
