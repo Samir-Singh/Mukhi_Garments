@@ -23,7 +23,7 @@ const Section = styled.section`
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;
-
+  z-index: 5;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
