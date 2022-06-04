@@ -3,6 +3,7 @@ import styled from "styled-components";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import AddLocationAltIcon from "@mui/icons-material/AddLocationAlt";
 import img1 from "../assets/Images/1.webp";
 import img2 from "../assets/Images/2.webp";
 import img3 from "../assets/Images/3.webp";
@@ -169,6 +170,13 @@ const About = () => {
           </a>
           <a href="https://wa.me/message/GEQDSUP3MUQCC1">
             <WhatsAppIcon fontSize="large" />
+          </a>
+          <a
+            href="https://maps.app.goo.gl/z1Z8pHibpGJC7Vng7"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AddLocationAltIcon fontSize="large" />
           </a>
         </div>
       </Left>
