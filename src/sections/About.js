@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import img1 from "../assets/Images/1.webp";
 import img2 from "../assets/Images/2.webp";
 import img3 from "../assets/Images/3.webp";
@@ -132,13 +134,43 @@ const About = () => {
           <i>Mukhi Garments</i>
         </b>{" "}
         offer unique and creative products to a wide range of people. We have a
-        variety of styles for womens, but for most people, all of the options
-        are in the box. We specialize in making things that make you happy.
+        variety of styles for womens
         <br />
         <br />
-        We strive to build on our vision. As a fashion label, we do our best to
-        create amazing experiences for all people. We are always looking to make
-        something that is easy for everyone.
+        All India Shipping Available -{" "}
+        <span style={{ color: "red" }}>FREE DELIVERY</span>
+        <br />
+        In Case of Any Concern, Contact US:{" "}
+        <span style={{ color: "#e60000" }}>9988185110, 7009877153</span>
+        <br />
+        <br />
+        Shop Address:
+        <br />
+        <span style={{ marginLeft: "20px" }}>NEAR WATER TANK</span> <br />
+        <span style={{ marginLeft: "20px" }}>STREET NO.7</span> <br />
+        <span style={{ marginLeft: "20px" }}>TRIPURI ( PATIALA )</span>
+        <br />
+        <br />
+        CONNECT WITH US
+        <div>
+          <a
+            href="https://instagram.com/mukhigarments?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            rel="noreferrer"
+          >
+            <InstagramIcon fontSize="large" />
+          </a>
+          <a
+            href="https://www.facebook.com/MUKHIGARMENTS/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FacebookIcon fontSize="large" />
+          </a>
+          <a href="https://wa.me/c/919988185110">
+            <WhatsAppIcon fontSize="large" />
+          </a>
+        </div>
       </Left>
       <Right>
         <img src={img1} alt="About Us" />
