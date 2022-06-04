@@ -167,7 +167,7 @@ const About = () => {
           >
             <FacebookIcon fontSize="large" />
           </a>
-          <a href="https://wa.me/c/919988185110">
+          <a href="https://wa.me/message/GEQDSUP3MUQCC1">
             <WhatsAppIcon fontSize="large" />
           </a>
         </div>
