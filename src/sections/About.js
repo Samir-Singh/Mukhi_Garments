@@ -168,7 +168,11 @@ const About = () => {
           >
             <FacebookIcon fontSize="large" />
           </a>
-          <a href="https://wa.me/message/GEQDSUP3MUQCC1">
+          <a
+            href="https://wa.me/message/GEQDSUP3MUQCC1"
+            target="_blank"
+            rel="noreferrer"
+          >
             <WhatsAppIcon fontSize="large" />
           </a>
           <a
@@ -176,7 +180,11 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <AddLocationAltIcon fontSize="large" />
+            <AddLocationAltIcon
+              fontSize="large"
+              target="_blank"
+              rel="noreferrer"
+            />
           </a>
         </div>
       </Left>
