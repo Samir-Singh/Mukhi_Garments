@@ -164,7 +164,7 @@ const NewArrival = () => {
       t1.fromTo(
         scrollingElement,
         {
-          y: "0",
+          y: "10",
         },
 
         {
