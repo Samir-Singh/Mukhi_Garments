@@ -122,6 +122,12 @@ const Item = styled.div`
     height: auto;
     z-index: 0;
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    img {
+      margin: 8rem 0 0 0;
+    }
+  }
 `;
 
 const Product = ({ img, title = "" }) => {
@@ -164,11 +170,11 @@ const NewArrival = () => {
       t1.fromTo(
         scrollingElement,
         {
-          y: "10",
+          y: "0",
         },
 
         {
-          y: "-110%",
+          y: "-120%",
           scrollTrigger: {
             trigger: scrollingElement,
             start: "top top",
