@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import Logo from "../assets/Svgs/star_white_48dp.svg";
+import Logo from "../assets/Images/Logo Mg 2.png";
+import Logo2 from "../assets/Images/Logo.png";
 import { motion } from "framer-motion";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -49,6 +50,13 @@ const FooterComponent = styled(motion.footer)`
 
   @media (max-width: 48em) {
     width: 90vw;
+  }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    img {
+      width: 50%;
+      height: 25%;
+    }
   }
 
   ul {
@@ -131,13 +139,29 @@ const Footer = () => {
     <Section>
       <LogoContainer>
         <img
+          style={{
+            width: "10em",
+            height: "10em",
+          }}
           data-scroll
           data-scroll-speed="2"
           src={Logo}
           alt="Mukhi Garments"
         />
         <h3 data-scroll data-scroll-speed="-1">
-          Mukhi Garments
+          <img
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              height: "100px",
+            }}
+            data-scroll
+            data-scroll-speed="2"
+            src={Logo2}
+            alt="Mukhi Garments"
+          />
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -178,13 +202,31 @@ const Footer = () => {
                 fontSize: "50px",
               }}
             >
-              <InstagramIcon />
+              <a
+                href="https://instagram.com/mukhigarments?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <InstagramIcon />
+              </a>
             </span>
             <span style={{ marginLeft: "10px" }}>
-              <FacebookIcon />
+              <a
+                href="https://www.facebook.com/MUKHIGARMENTS/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FacebookIcon />
+              </a>
             </span>
             <span style={{ marginLeft: "10px" }}>
-              <WhatsAppIcon />
+              <a
+                href="https://wa.me/message/GEQDSUP3MUQCC1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <WhatsAppIcon />
+              </a>
             </span>
           </span>
         </Bottom>
