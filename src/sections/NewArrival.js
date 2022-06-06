@@ -3,10 +3,12 @@ import styled from "styled-components";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-import img1 from "../assets/Images/11.webp";
-import img2 from "../assets/Images/12.webp";
+import img1 from "../assets/Images/3.webp";
+import img2 from "../assets/Images/11.webp";
 import img3 from "../assets/Images/13.webp";
 import img4 from "../assets/Images/14.webp";
+import img5 from "../assets/Images/15.webp";
+import img6 from "../assets/Images/16.webp";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -166,7 +168,7 @@ const NewArrival = () => {
         },
 
         {
-          y: "-100%",
+          y: "-110%",
           scrollTrigger: {
             trigger: scrollingElement,
             start: "top top",
@@ -201,11 +203,12 @@ const NewArrival = () => {
       </Title>
 
       <Container ref={ScrollingRef}>
-        <Product img={img1} title="Denim" />
-        <Product img={img2} title="Cool Dresses" />
-        <Product img={img3} title="Jackets" />
-        <Product img={img4} title="T-shirts" />
-        <Product img={img1} title="Denim" />
+        <Product img={img1} title="Lehenga" />
+        <Product img={img2} title="Denim" />
+        <Product img={img3} title="Western Suit" />
+        <Product img={img4} title="Tops" />
+        <Product img={img5} title="Unstiched Fabric" />
+        <Product img={img6} title="Party Wear" />
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
