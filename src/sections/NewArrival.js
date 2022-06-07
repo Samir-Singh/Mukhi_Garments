@@ -9,6 +9,7 @@ import img3 from "../assets/Images/13.webp";
 import img4 from "../assets/Images/14.webp";
 import img5 from "../assets/Images/15.webp";
 import img6 from "../assets/Images/16.webp";
+import img7 from "../assets/Images/17.webp";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -211,10 +212,11 @@ const NewArrival = () => {
       <Container ref={ScrollingRef}>
         <Product img={img1} title="Lehenga" />
         <Product img={img2} title="Denim" />
-        <Product img={img3} title="Western Suit" />
+        <Product img={img3} title="Plazo Suit" />
         <Product img={img4} title="Tops" />
         <Product img={img5} title="Unstiched Fabric" />
-        <Product img={img6} title="Party Wear" />
+        <Product img={img6} title="Western Suit" />
+        <Product img={img7} title="Party Wear" />
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
