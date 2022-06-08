@@ -215,7 +215,7 @@ const NewArrival = () => {
         <Product img={img3} title="Plazo Suit" />
         <Product img={img4} title="Tops" />
         <Product img={img5} title="Unstiched Fabric" />
-        <Product img={img6} title="Western Suit" />
+        <Product img={img6} title="Western" />
         <Product img={img7} title="Party Wear" />
       </Container>
 
