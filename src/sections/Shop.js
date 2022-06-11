@@ -205,21 +205,15 @@ const Shop = () => {
   return (
     <Section ref={ref} id="shop">
       <Title data-scroll data-scroll-speed="-1">
-        New Collection
+        Our Showroom
       </Title>
       <Left>
         <p>
-          The brand new collection is currently being developed in USA. We
-          create our products using best quality material, including the use of
-          some of the pure fabrics to make our products. All products are made
-          using the best materials, from the finest cotton to the finest
-          fabrics.
+          "Fashion is part of the daily air and it changes all the time, with
+          all the events. You can even see the approaching of a revolution in
+          clothes. You can see and feel everything in clothes."
           <br />
-          <br />
-          We have lots of different clothing options like shoes, jackets and
-          dresses. Not only clothes but we also provide unique Jewellery as
-          well. It is great for us to carry our new clothes all around the
-          country and look different.
+          <br /> —MUKHI GARMENTS & SILK.
         </p>
       </Left>
       <Right ref={horizontalRef}>
