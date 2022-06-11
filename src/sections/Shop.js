@@ -6,16 +6,16 @@ import { useRef } from "react";
 
 import { motion } from "framer-motion";
 
-import img1 from "../assets/Images/1.webp";
-import img2 from "../assets/Images/2.webp";
-import img3 from "../assets/Images/3.webp";
-import img4 from "../assets/Images/4.webp";
-import img5 from "../assets/Images/5.webp";
-import img6 from "../assets/Images/6.webp";
-import img7 from "../assets/Images/7.webp";
-import img8 from "../assets/Images/8.webp";
-import img9 from "../assets/Images/9.webp";
-import img10 from "../assets/Images/10.webp";
+import img1 from "../assets/Images/18.PNG";
+import img2 from "../assets/Images/19.PNG";
+import img3 from "../assets/Images/20.PNG";
+import img4 from "../assets/Images/21.PNG";
+import img5 from "../assets/Images/22.PNG";
+import img6 from "../assets/Images/23.PNG";
+import img7 from "../assets/Images/24.PNG";
+import img8 from "../assets/Images/25.PNG";
+import img9 from "../assets/Images/26.PNG";
+import img10 from "../assets/Images/26.PNG";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -108,7 +108,7 @@ const Right = styled.div`
 `;
 
 const Item = styled(motion.div)`
-  width: 20rem;
+  width: 40rem;
   margin-right: 6rem;
 
   display: flex;
@@ -129,14 +129,14 @@ const Item = styled(motion.div)`
   }
 
   @media (max-width: 48em) {
-    width: 15rem;
+    width: 25rem;
   }
 `;
 
 const Product = ({ img, title = "" }) => {
   return (
     <Item
-      initial={{ filter: "grayscale(100%)" }}
+      initial={{ filter: "grayscale(0%)" }}
       whileInView={{ filter: "grayscale(0%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
@@ -223,16 +223,16 @@ const Shop = () => {
         </p>
       </Left>
       <Right ref={horizontalRef}>
-        <Product img={img1} title="Man Basics" />
-        <Product img={img2} title="Tops" />
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
-        <Product img={img5} title="Blazers" />
-        <Product img={img6} title="Suits" />
-        <Product img={img7} title="Antiques" />
-        <Product img={img8} title="Jewellery" />
-        <Product img={img9} title="Watches" />
-        <Product img={img10} title="Special Edition" />
+        <Product img={img1} />
+        <Product img={img2} />
+        <Product img={img3} />
+        <Product img={img4} />
+        <Product img={img5} />
+        <Product img={img6} />
+        <Product img={img7} />
+        <Product img={img8} />
+        <Product img={img9} />
+        <Product img={img10} />
       </Right>
     </Section>
   );
