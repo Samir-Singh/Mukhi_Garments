@@ -111,7 +111,7 @@ const CoverVideo = () => {
         >
           <img
             style={{
-              width: "85%",
+              width: "100%",
               height: "85%",
             }}
             src={logo}
